@@ -1,5 +1,4 @@
 document.getElementById("issueInputForm").addEventListener("submit", saveIssue);
-fetchIssues()
 function saveIssue(e) {
     var issueId = chance.guid();
     // var issueDesc = document.getElementById("issueDescInput").value;
@@ -102,3 +101,5 @@ function deleteIssue(id) {
 
     fetchIssues();
 }
+
+fetchIssues();
